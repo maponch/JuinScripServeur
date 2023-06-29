@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS `course` (
   `code` varchar(4) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `code` (`code`)
-) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=37;
 
 --
 -- Dumping data for table `course`
